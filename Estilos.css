@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body{            /*Tipografia*/
     font-family: 'Open Sans';
 }
 
-.contenedor{
+.contenedor{                       /*Separacion*/
     padding: 60px 0;
     width: 90%;
     max-width: 1000px;
@@ -15,6 +15,25 @@ body{
     overflow: hidden;
 }
 
-.titulo{
+.titulo{                     /*Se personalizan los titulos*/
     color: #ff00cc;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{                       /*Se agrega el fondo*/
+    width: 100%;
+    height: 600px;
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(240, 50%, 40%, 0.644), hsla(312, 100%, 50%, 0.596)), url(../Curriculum.vs/Fondo2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, hsla(240, 50%, 40%, 0.644), hsla(312, 100%, 50%, 0.596)), url(../Curriculum.vs/Fondo2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size:auto;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
 }
