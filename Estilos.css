@@ -46,9 +46,62 @@ nav>a{           /*Se personalizan los botones*/
 nav>a:hover{
     text-decoration: underline;
 }
+header.textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
 .wave{
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    }
+
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2{
+    font-size: 40px;
+    font-weight: 50;
+    color: #fff;
+}
+
+/*Informacion Personal*/
+.contenedor-sobre-nosotros{
+        display:flex;
+        justify-content:space 20px;
+    }
+.imagen-sobre-nosotros{
+    width: 20%;
+    margin-left: 200px;
+}
+.contenido-textos{
+    width: 30%;
+}
+
+.contenido-textos h3{
+margin-top: 20px;
+margin-bottom: 5px;
+margin-left: 100px;
+}
+.contenido-textos h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    text-align: justify;
 }
