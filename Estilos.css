@@ -18,10 +18,11 @@ body{            /*Tipografia*/
 }
 
 .titulo{                     /*Se personalizan los titulos*/
-    color: #54abe6;
+    color: #57e681;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
+    font-weight: 800;
 
 }
 body{
@@ -41,7 +42,7 @@ header{                       /*Se agrega el fondo*/
     background: #ff00cc;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(240, 50%, 40%, 0.644), hsla(312, 100%, 50%, 0.596)), url(../Curriculum.vs/Fondo2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, hsla(240, 50%, 40%, 0.644), hsla(312, 66%, 47%, 0.596)), url(../Curriculum.vs/Fondo2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
+    font-weight: 800;
     background-attachment: fixed;
     position: relative;
 }
@@ -176,12 +177,14 @@ color:#fff
     width: 12%;
     margin-left: 150px;
     margin-bottom: 300px;
+    margin-right: 120px;
     
 }
 
 .TextoEstudio{
     width: 30%;
     color:#fff
+    
 }
 
 .Formacion h4{
@@ -189,13 +192,41 @@ color:#fff
     margin-bottom: 5px;
     margin-left: 100px;
     color:#fff;
+    font-weight: 900;
 
 }
 .Formacion h3{
+    
     margin-top: 20px;
     margin-bottom: 5px;
     margin-left: 100px;
     color:#fff;
+    font-weight: 900;
+    
+}
+
+.contenedorBajo{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #54abe6 ;
+}
+
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #57e681;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.content-foo p{
+    color: #de8ce9;
+    font-weight: 800;
     
 }
 
