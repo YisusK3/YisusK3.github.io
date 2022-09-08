@@ -140,7 +140,7 @@ color:#fff
  .ImagenTrabajo{
     width: 12%;
     margin-left: 150px;
-    margin-bottom: 300px;
+    margin-bottom: 500px;
    
 }
  .TextoTrabajo{
@@ -176,7 +176,26 @@ color:#fff
     width: 12%;
     margin-left: 150px;
     margin-bottom: 300px;
+    
 }
 
+.TextoEstudio{
+    width: 30%;
+    color:#fff
+}
 
+.Formacion h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    color:#fff;
+
+}
+.Formacion h3{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    color:#fff;
+    
+}
 
