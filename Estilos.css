@@ -14,22 +14,34 @@ body{            /*Tipografia*/
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
+    
 }
 
 .titulo{                     /*Se personalizan los titulos*/
-    color: #ff00cc;
+    color: #54abe6;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
-}
 
+}
+body{
+    width: 100%;
+    height: 600px;
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, hsla(312, 100%, 50%, 0.596), #b92b27), url(../Curriculum.vs/Fondo3.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, hsla(312, 70%, 33%, 0.445), #921c9686),url(../Curriculum.vs/Fondo3.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size:auto;
+    background-attachment: fixed;
+    position: relative;
+
+    }
 header{                       /*Se agrega el fondo*/
     width: 100%;
     height: 600px;
     background: #ff00cc;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(240, 50%, 40%, 0.644), hsla(312, 100%, 50%, 0.596)), url(../Curriculum.vs/Fondo2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, hsla(240, 50%, 40%, 0.644), hsla(312, 100%, 50%, 0.596)), url(../Curriculum.vs/Fondo2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size:auto;
+    background: linear-gradient(to right, hsla(240, 50%, 40%, 0.644), hsla(312, 66%, 47%, 0.596)), url(../Curriculum.vs/Fondo2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
     background-attachment: fixed;
     position: relative;
 }
@@ -46,6 +58,7 @@ nav>a{           /*Se personalizan los botones*/
 }
 nav>a:hover{
     text-decoration: underline;
+    color:#fff
 }
 header.textos-header{
     display: flex;
@@ -53,6 +66,7 @@ header.textos-header{
     width: 100%;
     align-items: center;
     justify-content: center;
+    color:#fff
 }
 
 .wave{
@@ -69,6 +83,7 @@ header .textos-header{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    color:#fff
     }
 
 .textos-header h1{
@@ -83,9 +98,11 @@ header .textos-header{
 }
 
 /*Informacion Personal*/
+
 .contenedor-sobre-nosotros{
         display:flex;
         justify-content:space 20px;
+        
     }
 .imagen-sobre-nosotros{
     width: 20%;
@@ -93,16 +110,34 @@ header .textos-header{
 }
 .contenido-textos{
     width: 30%;
+    color:#fff
 }
 
 .contenido-textos h3{
 margin-top: 20px;
 margin-bottom: 5px;
 margin-left: 100px;
+color:#fff
 }
 .contenido-textos h2{
     margin-top: 10px;
     margin-bottom: 5px;
     margin-left: 100px;
     text-align: justify;
+    color:#fff
+}
+
+.HistorialLaboral h5{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    color:#fff
+}
+.HistorialLaboral h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    text-align: justify;
+    color:#fff
+    
 }
