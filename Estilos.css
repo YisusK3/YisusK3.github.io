@@ -67,6 +67,7 @@ header.textos-header{
     align-items: center;
     justify-content: center;
     color:#fff
+    
 }
 
 .wave{
@@ -107,6 +108,7 @@ header .textos-header{
 .imagen-sobre-nosotros{
     width: 20%;
     margin-left: 200px;
+    margin-bottom: 300px;
 }
 .contenido-textos{
     width: 30%;
@@ -127,17 +129,54 @@ color:#fff
     color:#fff
 }
 
-.HistorialLaboral h5{
+ /*Historial laboral*/
+
+ .contenido-texto{
+    display:flex;
+    justify-content:space 20px;
+    
+ }
+
+ .ImagenTrabajo{
+    width: 12%;
+    margin-left: 150px;
+    margin-bottom: 300px;
+   
+}
+ .TextoTrabajo{
+    width: 30%;
+    color:#fff
+    
+ }
+ 
+.HistorialLaboral h3{
+    
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    color:#fff;
+    
+}
+.HistorialLaboral h2{
     margin-top: 20px;
     margin-bottom: 5px;
     margin-left: 100px;
-    color:#fff
-}
-.HistorialLaboral h4{
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-left: 70px;
-    text-align: justify;
-    color:#fff
+    color:#fff;
+    text-align:center;
     
 }
+
+/*Formacion Personal*/
+.formacion-cont{
+    display:flex;
+    justify-content:space 20px;
+}
+
+.ImagenEstudio{
+    width: 12%;
+    margin-left: 150px;
+    margin-bottom: 300px;
+}
+
+
+
